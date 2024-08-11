@@ -1,50 +1,52 @@
-# React + TypeScript + Vite
+[Live Link](https://cube-assn-git-master-sarthak7846s-projects.vercel.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Development Server](#running-the-development-server)
 
-Currently, two official plugins are available:
+## Introduction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Cube Association is a modern web application built using Vite, React, and TypeScript. The project is designed to be fast, lightweight, and easy to work with. This README provides instructions on how to set up and run the project locally.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Vite** - A build tool that aims to provide a faster and leaner development experience for modern web projects.
+- **React** - A JavaScript library for building user interfaces.
+- **TypeScript** - A strongly typed programming language that builds on JavaScript.
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Prerequisites
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Before you begin, ensure you have the following installed on your machine:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **Node.js** (version 14.x or later)
+- **npm** (Node Package Manager)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Installation
+
+To set up the project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd your-repo-name
+   
+3. **Install the dependencies:**
+
+   ```bash
+   npm install
+
+### Running the Development Server
+To start the development server, run the following command:
+
+   ```bash
+   npm run dev
