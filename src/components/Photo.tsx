@@ -23,8 +23,6 @@ export const Photo: FC<PhotoProps> = ({ customerId }) => {
           } as ImageDataResponse;
 
           setPhotosResponse(formattedResult);
-          console.log(result);
-          console.log("fr", formattedResult);
         })
         .catch((err) => {
           console.log(err);

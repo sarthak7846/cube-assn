@@ -14,7 +14,6 @@ export const Customer: FC = () => {
     axios
       .get(CUSTOMER_API)
       .then((res) => {
-        console.log(res);
         setCustomersData(res.data.users);
         setSelectedCustomer(res.data.users[0]);
       })
