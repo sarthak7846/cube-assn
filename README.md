@@ -7,10 +7,6 @@
   - [Installation](#installation)
   - [Running the Development Server](#running-the-development-server)
 
-## Introduction
-
-Cube Association is a modern web application built using Vite, React, and TypeScript. The project is designed to be fast, lightweight, and easy to work with. This README provides instructions on how to set up and run the project locally.
-
 ## Technologies Used
 
 - **Vite** - A build tool that aims to provide a faster and leaner development experience for modern web projects.
