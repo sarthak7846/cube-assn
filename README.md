@@ -1,4 +1,4 @@
-[Live Link](https://cube-assn-git-master-sarthak7846s-projects.vercel.app/)
+[Live Link](https://cube-assn.vercel.app/)
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
